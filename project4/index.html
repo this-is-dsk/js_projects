@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GuessTheNumber</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <a href="/" area-current="page">Home</a>
+        <a target="_blank" href="www.instagram/this_is_dsk_/.com">Instagram</a>
+    </nav>
+    <div id="wrapper">
+        <h1>Number Guessing Game</h1>
+        <p>Try and guess a number between 1 and 100.</p>
+        <p>you have 10 attempts to guess the right number.</p>
+        <br>
+
+        <form class="form">
+            <label for="guessField" id="guess">Guess a Number</label><br>
+            <input type="text" id="guessField" class="guessField"><br>
+            <input type="submit" id="subt" value="Submit Guess" class="guessSubmit">
+        </form>
+
+        <div class="result">
+            <p>Previous Guesses : <span class="guesses"></span></p>
+            <p>Guesses Remaining : <span class="lastResult">10</span></p>
+            <p class="alertMessage"></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
